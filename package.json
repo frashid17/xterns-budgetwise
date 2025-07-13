@@ -9,15 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/backend": "^2.4.1",
     "@clerk/nextjs": "^6.20.1",
+    "@hono/clerk-auth": "^3.0.2",
+    "@hono/zod-validator": "^0.7.0",
     "@radix-ui/react-slot": "^1.2.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "hono": "^4.8.4",
     "lucide-react": "^0.511.0",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.0"
+    "tailwind-merge": "^3.3.0",
+    "zod": "^4.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
