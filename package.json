@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/backend": "^2.4.1",
+    "@clerk/clerk-react": "^5.34.0",
     "@clerk/nextjs": "^6.20.1",
     "@hono/clerk-auth": "^3.0.2",
     "@hono/zod-validator": "^0.7.0",
